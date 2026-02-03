@@ -1,10 +1,12 @@
 import React, { useState, useEffect, useCallback } from "react";
 
 // ─── API BASE URLS ────────────────────────────────────────────
-const API_MOVIE   = "http://localhost:8081/movies";
-const API_SHOW    = "http://localhost:8082/shows";
-const API_BOOKING = "http://localhost:8083/booking";
-
+// const API_MOVIE   = "http://localhost:8081/movies";
+// const API_SHOW    = "http://localhost:8082/shows";
+// const API_BOOKING = "http://localhost:8083/booking";
+const API_MOVIE   = "https://kc-movie-service.onrender.com/movies";
+const API_SHOW    = "https://kc-show-service.onrender.com/shows";
+const API_BOOKING = "https://kc-booking-service.onrender.com/booking";
 const MAX_SEATS = 6;
 
 // ─── STEP CONSTANTS ───────────────────────────────────────────
